@@ -1,5 +1,5 @@
 // Code DigitalClicker Component Here
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class DigitalClicker extends Component {
 
@@ -17,7 +17,7 @@ class DigitalClicker extends Component {
   render(){
     return(
       <div>
-        <button type='button' onClick={this.handleClick}>{this.state.timesClicked} </button>
+        <button type='button' onClick={this.handleClick}>{this.state.timesClicked}</button>
       </div>
     )
   }
